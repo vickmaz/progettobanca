@@ -15,6 +15,9 @@ def test_creazione_conto(conto):
     assert conto.nome == "Mario Rossi"
     assert conto.saldo == 100
 
+def test_dummy():
+    pass
+
 def test_deposita_conto(conto):
     # self.conto.deposita(50)
     # self.assertEqual(self.conto.saldo, 150)
